@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Card">
+      <UniqueIdentifier>{0acb6b33-18ea-45c0-b315-72bcd988581a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Card">
+      <UniqueIdentifier>{18353695-bb78-4e02-8be6-0d5b0016d495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Constants">
+      <UniqueIdentifier>{da832c82-07a6-4acb-b835-c9c91f70e509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constants">
+      <UniqueIdentifier>{220bea1a-be09-4002-a17d-b7fcde4ab72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enums">
+      <UniqueIdentifier>{91331356-7bca-4ad2-9ea3-83bd213536b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enums">
+      <UniqueIdentifier>{e4c13ecd-fc22-4184-b43d-8340efd8d3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{114335e9-0327-4d38-9e62-3d3158f1368b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{e70cf9b2-25fa-4f2a-9b72-0718b6b77d1c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Source Files\Constants</Filter>
+    </ClCompile>
+    <ClCompile Include="CardInitializer.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="CardColorEnum.cpp">
+      <Filter>Source Files\Enums</Filter>
+    </ClCompile>
+    <ClCompile Include="CardType.cpp">
+      <Filter>Source Files\Enums</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Design.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files\Constants</Filter>
+    </ClInclude>
+    <ClInclude Include="CardInitializer.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CardColorEnum.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="CardType.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
